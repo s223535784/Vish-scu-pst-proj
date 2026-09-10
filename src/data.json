@@ -1,0 +1,691 @@
+{
+ "profile": {
+  "name": "Vishesh Pahuja",
+  "initials": "VP",
+  "role": "Secondary pre-service teacher",
+  "tagline": "Food Technology and Digital Technologies",
+  "school": "Mooroolbark College, Victoria",
+  "program": "TCHR5014 Professional Experience I, Southern Cross University",
+  "email": "",
+  "linkedin": "",
+  "intro": "I teach in two hands-on subjects where students learn by making something real, a dish or a working program. This portfolio gathers what I have planned, taught and assessed on placement, and maps it against the Australian Professional Standards for Teachers at the Graduate career stage.",
+  "about": "I am completing my Victorian secondary placement at Mooroolbark College, teaching Food Technology and Digital Technologies. My work so far spans planning from the Victorian Curriculum, running a Year 7 assessment task from design through to marking and revision, and building differentiated resources for the full range of learners in a practical classroom.",
+  "quote": "Education is your ticket to adventure, a passport to freedom."
+ },
+ "philosophy": {
+  "heading": "Teaching and learning through a cognitivist lens",
+  "lead": "Students build new understanding by connecting it to what they already hold. My practice is designed around how attention and memory actually work, and around who is in the room.",
+  "pillars": [
+   {
+    "n": 1,
+    "t": "Prior knowledge and learner diversity",
+    "apst": [
+     "1.4"
+    ],
+    "b": [
+     "Learning is shaped by culture, language and background.",
+     "I start by finding out what students already know, then build from there."
+    ]
+   },
+   {
+    "n": 2,
+    "t": "Cognitivism as my learning theory",
+    "apst": [
+     "1.2"
+    ],
+    "b": [
+     "New knowledge sticks when it connects to existing schemas.",
+     "Novice learners need explicit instruction; expert learners can work more independently.",
+     "Information moves from processing to long-term memory when load is managed."
+    ]
+   },
+   {
+    "n": 3,
+    "t": "A teaching framework I use every lesson",
+    "apst": [
+     "3.3"
+    ],
+    "b": [
+     "Gradual Release of Responsibility: I do, we do, you do.",
+     "Explicit teaching, modelled before it is expected."
+    ]
+   },
+   {
+    "n": 4,
+    "t": "Cognitive load and instructional design",
+    "apst": [
+     "3.3"
+    ],
+    "b": [
+     "Manage working memory by breaking learning into steps.",
+     "Scaffold heavily for novices, then withdraw the scaffold."
+    ]
+   },
+   {
+    "n": 5,
+    "t": "Equity, inclusion and culture",
+    "apst": [
+     "2.4"
+    ],
+    "b": [
+     "Culturally responsive teaching, informed by the 8 Ways of Aboriginal Learning.",
+     "Visualisation, modelling and watch-then-do as routes into a task."
+    ]
+   },
+   {
+    "n": 6,
+    "t": "Policy and professional alignment",
+    "apst": [
+     "6.1",
+     "7.1"
+    ],
+    "b": [
+     "The Alice Springs (Mparntwe) Education Declaration: excellence and equity.",
+     "Teacher responsibility as an ongoing professional obligation."
+    ]
+   }
+  ]
+ },
+ "domains": [
+  {
+   "key": "knowledge",
+   "name": "Professional Knowledge",
+   "color": "#1f6f5c",
+   "standards": [
+    1,
+    2
+   ]
+  },
+  {
+   "key": "practice",
+   "name": "Professional Practice",
+   "color": "#7a4f74",
+   "standards": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "key": "engagement",
+   "name": "Professional Engagement",
+   "color": "#2f5691",
+   "standards": [
+    6,
+    7
+   ]
+  }
+ ],
+ "reports": {
+  "interim": null,
+  "final": null
+ },
+ "library": [],
+ "standards": {
+  "1": {
+   "title": "Know students and how they learn",
+   "focus": [
+    {
+     "code": "1.1",
+     "title": "Development and characteristics of students",
+     "desc": "Demonstrate knowledge and understanding of physical, social and intellectual development and characteristics of students and how these may affect learning.",
+     "evidence": [
+      {
+       "title": "Weekly learning summaries, Weeks 1 to 3",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I taught across Year 7 to Year 11 and pitched each task to the year level, from a Year 7 introduction to reading a recipe through to Year 10 design brief work.",
+     "dev": "Document how one student's developmental need changed a lesson I planned."
+    },
+    {
+     "code": "1.2",
+     "title": "Understand how students learn",
+     "desc": "Demonstrate knowledge and understanding of research into how students learn and the implications for teaching.",
+     "evidence": [
+      {
+       "title": "Year 7 cupcakes lesson plan",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Philosophy of education poster",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "My planning follows a cognitivist view of learning: practical work then theory, schemas built from prior knowledge, and cognitive load managed by breaking a task into steps.",
+     "dev": "Name the research behind a strategy in a lesson rationale."
+    },
+    {
+     "code": "1.3",
+     "title": "Diverse linguistic, cultural, religious and socioeconomic backgrounds",
+     "desc": "Demonstrate knowledge of teaching strategies that are responsive to the learning strengths and needs of students from diverse linguistic, cultural, religious and socioeconomic backgrounds.",
+     "evidence": [
+      {
+       "title": "Three-level rubric: standard, simpler, EAL/D",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Worksheets with visual supports",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I rewrote a Year 7 assessment rubric in three levels of language, keeping the meaning identical, so students building English and EAL/D students could read the same criteria.",
+     "dev": "Ask an EAL/D student whether the plain wording actually helped."
+    },
+    {
+     "code": "1.4",
+     "title": "Teaching Aboriginal and Torres Strait Islander students",
+     "desc": "Demonstrate broad knowledge and understanding of the impact of culture, cultural identity and linguistic background on the education of students from Aboriginal and Torres Strait Islander backgrounds.",
+     "evidence": [],
+     "demo": "",
+     "dev": "Plan a genuine element using native foods, checked first with the school's Koorie support."
+    },
+    {
+     "code": "1.5",
+     "title": "Differentiate across the full range of abilities",
+     "desc": "Demonstrate knowledge and understanding of strategies for differentiating teaching to meet the specific learning needs of students across the full range of abilities.",
+     "evidence": [
+      {
+       "title": "Modified assessment task and rubric",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Extension questions with sentence starters",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Tip posters placed around the room",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "One task reached the whole class: a scaffolded version for students who needed it, extension questions with sentence starters, and posters that let students move while they worked.",
+     "dev": "Build a lesson differentiated for a named range of abilities from the start."
+    },
+    {
+     "code": "1.6",
+     "title": "Full participation of students with disability",
+     "desc": "Demonstrate broad knowledge and understanding of legislative requirements and teaching strategies that support participation and learning of students with disability.",
+     "evidence": [],
+     "demo": "",
+     "dev": "Record one adjustment I planned and the reason for it under the NCCD."
+    }
+   ]
+  },
+  "2": {
+   "title": "Know the content and how to teach it",
+   "focus": [
+    {
+     "code": "2.1",
+     "title": "Content and teaching strategies of the teaching area",
+     "desc": "Demonstrate knowledge and understanding of the concepts, substance and structure of the content and teaching strategies of the teaching area.",
+     "evidence": [
+      {
+       "title": "Year 7 cupcakes lesson plan",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Python objects activity",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I teach both of my areas: functional ingredients and food safety in Food Technology, and objects, attributes and methods in Python.",
+     "dev": "Add a second Digital Technologies artefact so the two areas are evenly evidenced."
+    },
+    {
+     "code": "2.2",
+     "title": "Content selection and organisation",
+     "desc": "Organise content into an effective learning and teaching sequence.",
+     "evidence": [
+      {
+       "title": "Cupcakes lesson: intentions, practical, exit ticket",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I sequenced the lesson so the learning intention and key ingredients came before the practical, and an exit ticket closed the loop.",
+     "dev": "Sequence a full unit rather than a single lesson."
+    },
+    {
+     "code": "2.3",
+     "title": "Curriculum, assessment and reporting",
+     "desc": "Use curriculum, assessment and reporting knowledge to design learning sequences and lesson plans.",
+     "evidence": [
+      {
+       "title": "Year 7 CAT 1 lesson plan",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Three-level rubric",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Year 10 design brief, VC2TDE10 outcomes",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I planned from Victorian Curriculum 2.0 outcomes, including VC2TDE10D01, D04 and C03, and built the task and rubric to assess them.",
+     "dev": "Add reporting evidence once results are entered and reported."
+    },
+    {
+     "code": "2.4",
+     "title": "Respect for Aboriginal and Torres Strait Islander people",
+     "desc": "Demonstrate broad knowledge of, understanding of and respect for Aboriginal and Torres Strait Islander histories, cultures and languages.",
+     "evidence": [],
+     "demo": "",
+     "dev": "Draw on the 8 Ways framework in a food lesson, sourced and checked with the school."
+    },
+    {
+     "code": "2.5",
+     "title": "Literacy and numeracy strategies",
+     "desc": "Know and understand literacy and numeracy teaching strategies and their application in teaching areas.",
+     "evidence": [
+      {
+       "title": "Reading a recipe lesson",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Sensory analysis vocabulary",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "Reading a recipe is procedural literacy; measuring, ratios and scaling a batch are numeracy. I name both for students as we work.",
+     "dev": "Collect student work samples from a scaling task."
+    },
+    {
+     "code": "2.6",
+     "title": "Information and communication technology",
+     "desc": "Implement teaching strategies for using ICT to expand curriculum learning opportunities for students.",
+     "evidence": [
+      {
+       "title": "Python activity files, scaffolded and extension",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Compass lesson plans",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I wrote a scaffolded Python task where students complete a class method by method, with an extension for confident coders.",
+     "dev": "Capture student outcomes from a digital task."
+    }
+   ]
+  },
+  "3": {
+   "title": "Plan for and implement effective teaching and learning",
+   "focus": [
+    {
+     "code": "3.1",
+     "title": "Establish challenging learning goals",
+     "desc": "Set learning goals that provide achievable challenges for students of varying abilities and characteristics.",
+     "evidence": [
+      {
+       "title": "Assessment lesson plan with success criteria",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "Success criteria were written in student voice, with extension available so the task stretched confident students.",
+     "dev": ""
+    },
+    {
+     "code": "3.2",
+     "title": "Plan, structure and sequence learning programs",
+     "desc": "Plan lesson sequences using knowledge of student learning, content and effective teaching strategies.",
+     "evidence": [
+      {
+       "title": "Year 7 CAT 1 lesson plan",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I planned and led a full lesson built on Gradual Release, from introduction through to an exit reflection.",
+     "dev": ""
+    },
+    {
+     "code": "3.3",
+     "title": "Use teaching strategies",
+     "desc": "Include a range of teaching strategies.",
+     "evidence": [
+      {
+       "title": "Cupcakes lesson: explicit teaching, demonstration, movement task",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I used explicit instruction, a demonstration, questioning and a movement activity in a single period.",
+     "dev": ""
+    },
+    {
+     "code": "3.4",
+     "title": "Select and use resources",
+     "desc": "Demonstrate knowledge of a range of resources, including ICT, that engage students in their learning.",
+     "evidence": [
+      {
+       "title": "Worksheets, posters and Python files",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I chose and prepared the worksheets, posters and code files each lesson needed, rather than teaching from the board alone.",
+     "dev": ""
+    },
+    {
+     "code": "3.5",
+     "title": "Use effective classroom communication",
+     "desc": "Demonstrate a range of verbal and non-verbal communication strategies to support student engagement.",
+     "evidence": [
+      {
+       "title": "Year 7 assessment delivery",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I introduced the task, decoded the question wording with students, and checked understanding before they began.",
+     "dev": "Gather feedback on my non-verbal habits: position in the room, wait time, gesture."
+    },
+    {
+     "code": "3.6",
+     "title": "Evaluate and improve teaching programs",
+     "desc": "Demonstrate broad knowledge of strategies that can be used to evaluate teaching programs to improve student learning.",
+     "evidence": [
+      {
+       "title": "Student reflection data analysis and revision plan",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I analysed every student reflection sheet, grouped the gaps, and turned them into a revision plan for the next task.",
+     "dev": ""
+    },
+    {
+     "code": "3.7",
+     "title": "Engage parents and carers in the educative process",
+     "desc": "Describe a broad range of strategies for involving parents/carers in the educative process.",
+     "evidence": [],
+     "demo": "",
+     "dev": "Observe how the school communicates with families and record what I learn."
+    }
+   ]
+  },
+  "4": {
+   "title": "Create and maintain supportive and safe learning environments",
+   "focus": [
+    {
+     "code": "4.1",
+     "title": "Support student participation",
+     "desc": "Identify strategies to support inclusive student participation and engagement in classroom activities.",
+     "evidence": [
+      {
+       "title": "Modified worksheets, pairs and roles",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "Pairs, defined roles and a modified worksheet meant every student had a way into the task.",
+     "dev": ""
+    },
+    {
+     "code": "4.2",
+     "title": "Manage classroom activities",
+     "desc": "Demonstrate the capacity to organise classroom activities and provide clear directions.",
+     "evidence": [
+      {
+       "title": "Entry routines and assessment conditions",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I ran the entry routine and equipment check, gave clear directions, and set up and managed assessment conditions.",
+     "dev": ""
+    },
+    {
+     "code": "4.3",
+     "title": "Manage challenging behaviour",
+     "desc": "Demonstrate knowledge of practical approaches to manage challenging behaviour.",
+     "evidence": [
+      {
+       "title": "Observation records",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I have redirected low-level behaviour and watched a restorative approach where students were given a second chance after a conversation.",
+     "dev": "Lead a behaviour routine myself rather than following my mentor's lead."
+    },
+    {
+     "code": "4.4",
+     "title": "Maintain student safety",
+     "desc": "Describe strategies that support students' wellbeing and safety working within school and/or system, curriculum and legislative requirements.",
+     "evidence": [
+      {
+       "title": "Kitchen safety routines",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Year 7 food safety assessment",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "Safety is the content and the routine in my subject: aprons, tied hair, safe knife and oven use, and an assessment built on food safety and hygiene.",
+     "dev": ""
+    },
+    {
+     "code": "4.5",
+     "title": "Use ICT safely, responsibly and ethically",
+     "desc": "Demonstrate an understanding of the relevant issues and the strategies available to support the safe, responsible and ethical use of ICT in learning and teaching.",
+     "evidence": [
+      {
+       "title": "Digital Technologies classes",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I model safe and responsible use of school systems and online sources when students research and code.",
+     "dev": ""
+    }
+   ]
+  },
+  "5": {
+   "title": "Assess, provide feedback and report on student learning",
+   "focus": [
+    {
+     "code": "5.1",
+     "title": "Assess student learning",
+     "desc": "Demonstrate understanding of assessment strategies, including informal and formal, diagnostic, formative and summative approaches to assess student learning.",
+     "evidence": [
+      {
+       "title": "Year 7 CAT 1, planned and delivered",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "Review and reflection sheet",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I planned and delivered a summative task for Year 7, and used questioning and observation as informal checks during practical lessons.",
+     "dev": ""
+    },
+    {
+     "code": "5.2",
+     "title": "Provide feedback to students",
+     "desc": "Demonstrate an understanding of the purpose of providing timely and appropriate feedback to students about their learning.",
+     "evidence": [
+      {
+       "title": "Review and reflection sheet with study toolbox",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "Students received a reflection sheet that named what to do next, with a toolbox of study strategies rather than a bare mark.",
+     "dev": "Add written feedback on a marked student task."
+    },
+    {
+     "code": "5.3",
+     "title": "Make consistent and comparable judgements",
+     "desc": "Demonstrate understanding of assessment moderation and its application to support consistent and comparable judgements of student learning.",
+     "evidence": [
+      {
+       "title": "Marking session with mentor",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I marked a set of tests alongside my mentor against the rubric, then compared our judgements.",
+     "dev": ""
+    },
+    {
+     "code": "5.4",
+     "title": "Interpret student data",
+     "desc": "Demonstrate the capacity to interpret student assessment data to evaluate student learning and modify teaching practice.",
+     "evidence": [
+      {
+       "title": "Reflection data analysis and revision plan",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "Grouping the reflections showed the gaps were food safety facts and two question formats, and that most students had studied passively. That shaped what to reteach.",
+     "dev": ""
+    },
+    {
+     "code": "5.5",
+     "title": "Report on student achievement",
+     "desc": "Demonstrate understanding of a range of strategies for reporting to students and parents/carers and the purpose of keeping accurate and reliable records of student achievement.",
+     "evidence": [],
+     "demo": "",
+     "dev": "Learn how results are recorded and reported, and write an ongoing progress entry."
+    }
+   ]
+  },
+  "6": {
+   "title": "Engage in professional learning",
+   "focus": [
+    {
+     "code": "6.1",
+     "title": "Identify and plan professional learning needs",
+     "desc": "Demonstrate an understanding of the role of the Australian Professional Standards for Teachers in identifying professional learning needs.",
+     "evidence": [
+      {
+       "title": "Standards alignment for Food Technology",
+       "href": "",
+       "img": ""
+      },
+      {
+       "title": "This portfolio",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I use the standards to set goals and to find the gaps in my own evidence, which is what this portfolio is for.",
+     "dev": ""
+    },
+    {
+     "code": "6.2",
+     "title": "Engage in professional learning and improve practice",
+     "desc": "Understand the relevant and appropriate sources of professional learning for teachers.",
+     "evidence": [
+      {
+       "title": "Curriculum planning days",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I took part in the school's curriculum planning days on the Victorian Teaching and Learning Model.",
+     "dev": ""
+    },
+    {
+     "code": "6.3",
+     "title": "Engage with colleagues and improve practice",
+     "desc": "Seek and apply constructive feedback from supervisors and teachers to improve teaching practices.",
+     "evidence": [
+      {
+       "title": "Lesson observation feedback sheet",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I ask my mentor to watch for two or three specific things each lesson, and record the feedback and my next step.",
+     "dev": ""
+    },
+    {
+     "code": "6.4",
+     "title": "Apply professional learning and improve student learning",
+     "desc": "Demonstrate an understanding of the rationale for continued professional learning and the implications for improved student learning.",
+     "evidence": [],
+     "demo": "I act on feedback in the following lesson and note what changed for students.",
+     "dev": ""
+    }
+   ]
+  },
+  "7": {
+   "title": "Engage professionally with colleagues, parents, carers and the community",
+   "focus": [
+    {
+     "code": "7.1",
+     "title": "Meet professional ethics and responsibilities",
+     "desc": "Understand and apply the key principles described in codes of ethics and conduct for the teaching profession.",
+     "evidence": [
+      {
+       "title": "Professional correspondence",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I keep student information confidential and work within the conduct expected by the Victorian Institute of Teaching.",
+     "dev": ""
+    },
+    {
+     "code": "7.2",
+     "title": "Comply with legislative, administrative and organisational requirements",
+     "desc": "Understand the relevant legislative, administrative and organisational policies and processes required for teachers according to school stage.",
+     "evidence": [
+      {
+       "title": "Placement records, child safe and safety rules",
+       "href": "",
+       "img": ""
+      }
+     ],
+     "demo": "I follow the school's systems and requirements, including child safe standards, uniform and kitchen safety rules.",
+     "dev": ""
+    },
+    {
+     "code": "7.3",
+     "title": "Engage with parents and carers",
+     "desc": "Understand strategies for working effectively, sensitively and confidentially with parents/carers.",
+     "evidence": [],
+     "demo": "",
+     "dev": "Understand the school's approach to family communication, including dietary and medical information."
+    },
+    {
+     "code": "7.4",
+     "title": "Engage with professional teaching networks and communities",
+     "desc": "Understand the role of external professionals and community representatives in broadening teachers' professional knowledge and practice.",
+     "evidence": [],
+     "demo": "I work with the Food and Technologies faculty at the school and with my university placement network.",
+     "dev": ""
+    }
+   ]
+  }
+ }
+}
