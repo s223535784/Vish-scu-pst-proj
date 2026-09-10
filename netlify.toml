@@ -1,0 +1,26 @@
+# Publishing this repository as a website.
+#
+# Netlify builds a read-only copy of the portfolio into dist/ and serves that,
+# so visitors get the document without the editing controls. The editable
+# index.html at the repository root is the one to download and work in.
+#
+# If a build ever fails because python3 is unavailable on the build image,
+# replace the command below with:
+#   command = "mkdir -p dist && cp index.html dist/index.html"
+# which publishes the committed file as it is, editing controls included.
+
+[build]
+  command = "python3 build.py --readonly --out dist/index.html"
+  publish = "dist"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "no-referrer"
+    Permissions-Policy = "geolocation=(), camera=(), microphone=()"
+    # A teaching portfolio holds student work. This keeps it out of search
+    # results: delete the line if you want the site indexed.
+    X-Robots-Tag = "noindex, nofollow"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; frame-src 'self' blob: data: https:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"

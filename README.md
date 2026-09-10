@@ -22,6 +22,11 @@ university computer, a school laptop or a USB stick.
 
 Press `?` in the page for the full list of keyboard shortcuts.
 
+It is genuinely offline. Nothing is fetched at runtime except the two web fonts,
+and the page is designed to fall back to system fonts when those cannot load.
+Word documents are previewed by the page itself: a `.docx` is a zip of XML, and
+browsers can now unzip it natively, so no library is involved.
+
 ### How saving works
 
 Three separate things, worth keeping straight:
@@ -44,6 +49,57 @@ listed item *and* an explanation of how it meets the standard. One of the two
 shows as **In progress**, so the summary and the tab counts reflect what an
 assessor would actually accept.
 
+## Publishing it as a website
+
+`index.html` on its own is enough. Dragging that one file onto
+[app.netlify.com/drop](https://app.netlify.com/drop) gives you a live URL in a
+few seconds, with nothing else to configure.
+
+Publishing from this repository is better if you expect to update it, because
+every push republishes. In Netlify: **Add new site → Import an existing project
+→ GitHub → this repository**. `netlify.toml` already sets the build command, so
+accept what it offers. It builds a **read-only** copy into `dist/`: the Edit
+button, the details dialog and the save controls are gone, the page caches
+nothing in a visitor's browser, and the search, tabs, viewer and PDF or Word
+downloads all still work. Visitors read a document; you keep editing your own
+copy of the file.
+
+`netlify.toml` also sets `X-Robots-Tag: noindex, nofollow`, so the site will not
+turn up in search results. Delete that line if you want it indexed.
+
+### Getting your content onto the published site
+
+This repository holds the *seed* content in `src/data.json`. Your real content
+lives in the `.html` file you have been saving. So publishing your current
+portfolio is two steps:
+
+```sh
+python3 sync.py ~/Downloads/Vishesh_Pahuja_Portfolio.html
+git add -A && git commit -m "Update portfolio content" && git push
+```
+
+`sync.py` reads the data block out of your saved file (or out of a Portfolio
+data `.json` export), writes it to `src/data.json` and rebuilds. Netlify then
+rebuilds from the push.
+
+### Before you publish anything
+
+A placement portfolio holds student work, photographs of children and a mentor's
+written assessment of you. A Netlify URL is public to anyone who has it, even
+unlisted and unindexed. Worth settling first:
+
+- Whether your school and university permit student images and student work to
+  be published at all. Most schools require signed consent per student, and many
+  say no to anything outside their own systems.
+- Whether the mentor reports should be on a public URL. They are about you, and
+  a coordinator can be sent the file instead.
+- Whether faces and student names appear in any screenshot you have attached.
+
+If any of that is unresolved, the safer route is to email the saved `.html`
+file, or to publish a copy with the sensitive attachments removed. Netlify's
+password protection and its private team options sit behind a paid plan, so on
+the free tier "unlisted URL" is the only protection available.
+
 ## Working on the application
 
 `index.html` is generated. The sources are:
@@ -53,14 +109,24 @@ src/portfolio.css   styles
 src/portfolio.js    the application
 src/data.json       the seed content only
 build.py            assembles the three into index.html
+sync.py             pulls content out of a saved portfolio back into src/
+netlify.toml        publishing configuration
 tests/              browser tests, Playwright
 ```
 
 ```sh
-python3 build.py                       # rebuild index.html
-node tests/functional.test.mjs         # 69 checks: search, editing, routing, files, a11y
-node tests/exports.test.mjs            # 22 checks: print, PDF, Word, JSON, restore, quota
+npm install
+npm test                       # builds both copies, then runs all four suites
+python3 build.py               # rebuild index.html, editable
+npm run build:publish          # rebuild dist/index.html, read only
 ```
+
+| Suite | Checks |
+| --- | --- |
+| `tests/functional.test.mjs` | 69: search, editing, routing, attachments, persistence, a11y |
+| `tests/exports.test.mjs` | 22: print, PDF, Word, JSON, restore, storage-quota failure |
+| `tests/docx.test.mjs` | 29: the Word preview, with all network requests blocked |
+| `tests/published.test.mjs` | 19: the read-only copy, served under the real Netlify headers |
 
 Set `CHROME_PATH` if Playwright cannot find a browser.
 

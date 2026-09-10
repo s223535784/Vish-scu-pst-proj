@@ -4,9 +4,13 @@
   "description": "Single-file professional experience portfolio, mapped to the APST",
   "scripts": {
     "build": "python3 build.py",
-    "test": "node tests/functional.test.mjs && node tests/exports.test.mjs",
+    "build:publish": "python3 build.py --readonly --out dist/index.html",
+    "sync": "python3 sync.py",
+    "test": "npm run build && npm run build:publish && node tests/functional.test.mjs && node tests/exports.test.mjs && node tests/docx.test.mjs && node tests/published.test.mjs",
     "test:functional": "node tests/functional.test.mjs",
-    "test:exports": "node tests/exports.test.mjs"
+    "test:exports": "node tests/exports.test.mjs",
+    "test:docx": "node tests/docx.test.mjs",
+    "test:published": "node tests/published.test.mjs"
   },
   "devDependencies": {
     "playwright": "^1.56.1"
